@@ -1,0 +1,475 @@
+file       : C:\Users\Copil\Desktop\apw12-psu-controller\analysis\digital.csv
+header     : ['Time [s]', 'Channel 0', 'Channel 1']
+samples    : 3364  (transitions: 3363)
+SDA=Ch0  SCL=Ch1
+transactions: 109
+first transaction: 58.81 ms  -> SCL ~306 Hz
+
+================ TRANSACTIONS ================
+
+[0] start=5.080280s  duration=58.81 ms
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[1] start=5.166216s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[2] start=5.221982s  duration=27.38 ms  (repeated start)
+    byte0: 0x55  ACK 
+    raw: 55
+
+[3] start=5.249358s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[4] start=5.253416s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[5] start=5.309180s  duration=30.43 ms  (repeated start)
+    byte0: 0xAA  ACK 
+    raw: AA
+
+[6] start=5.340615s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[7] start=5.396379s  duration=30.42 ms  (repeated start)
+    byte0: 0x06  ACK 
+    raw: 06
+
+[8] start=5.427812s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[9] start=5.483577s  duration=27.38 ms  (repeated start)
+    byte0: 0x83  ACK 
+    raw: 83
+
+[10] start=5.510953s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[11] start=5.515011s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[12] start=5.570776s  duration=30.43 ms  (repeated start)
+    byte0: 0xF8  ACK 
+    raw: F8
+
+[13] start=5.602210s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[14] start=5.657976s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[15] start=5.689410s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[16] start=5.745174s  duration=27.38 ms  (repeated start)
+    byte0: 0x81  ACK 
+    raw: 81
+
+[17] start=5.772551s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[18] start=5.776609s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[19] start=5.832373s  duration=27.38 ms  (repeated start)
+    byte0: 0x01  ACK 
+    raw: 01
+
+[20] start=5.859748s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[21] start=9.104191s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[22] start=13.009105s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[23] start=13.095041s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[24] start=13.150806s  duration=27.38 ms  (repeated start)
+    byte0: 0x55  ACK 
+    raw: 55
+
+[25] start=13.178182s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[26] start=13.182240s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[27] start=13.238006s  duration=30.43 ms  (repeated start)
+    byte0: 0xAA  ACK 
+    raw: AA
+
+[28] start=13.269440s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[29] start=13.325204s  duration=30.42 ms  (repeated start)
+    byte0: 0x06  ACK 
+    raw: 06
+
+[30] start=13.356637s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[31] start=13.412402s  duration=27.38 ms  (repeated start)
+    byte0: 0x83  ACK 
+    raw: 83
+
+[32] start=13.439778s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[33] start=13.443836s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[34] start=13.499601s  duration=30.43 ms  (repeated start)
+    byte0: 0xD0  ACK 
+    raw: D0
+
+[35] start=13.531036s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[36] start=13.586801s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[37] start=13.618235s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[38] start=13.674000s  duration=27.38 ms  (repeated start)
+    byte0: 0x59  ACK 
+    raw: 59
+
+[39] start=13.701376s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[40] start=13.705434s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[41] start=13.761199s  duration=27.38 ms  (repeated start)
+    byte0: 0x01  ACK 
+    raw: 01
+
+[42] start=13.788576s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[43] start=16.904019s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[44] start=19.555960s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[45] start=19.641896s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[46] start=19.697661s  duration=27.38 ms  (repeated start)
+    byte0: 0x55  ACK 
+    raw: 55
+
+[47] start=19.725038s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[48] start=19.729096s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[49] start=19.784861s  duration=30.42 ms  (repeated start)
+    byte0: 0xAA  ACK 
+    raw: AA
+
+[50] start=19.816294s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[51] start=19.872059s  duration=30.43 ms  (repeated start)
+    byte0: 0x06  ACK 
+    raw: 06
+
+[52] start=19.903494s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[53] start=19.959259s  duration=27.38 ms  (repeated start)
+    byte0: 0x83  ACK 
+    raw: 83
+
+[54] start=19.986635s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[55] start=19.990692s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[56] start=20.046457s  duration=30.43 ms  (repeated start)
+    byte0: 0xA8  ACK 
+    raw: A8
+
+[57] start=20.077891s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[58] start=20.133655s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[59] start=20.165090s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[60] start=20.220855s  duration=27.38 ms  (repeated start)
+    byte0: 0x31  ACK 
+    raw: 31
+
+[61] start=20.248231s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[62] start=20.252289s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[63] start=20.308055s  duration=27.38 ms  (repeated start)
+    byte0: 0x01  ACK 
+    raw: 01
+
+[64] start=20.335431s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[65] start=22.637892s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[66] start=27.144792s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[67] start=27.230728s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[68] start=27.286492s  duration=27.38 ms  (repeated start)
+    byte0: 0x55  ACK 
+    raw: 55
+
+[69] start=27.313869s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[70] start=27.317927s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[71] start=27.373692s  duration=30.43 ms  (repeated start)
+    byte0: 0xAA  ACK 
+    raw: AA
+
+[72] start=27.405126s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[73] start=27.460892s  duration=30.42 ms  (repeated start)
+    byte0: 0x06  ACK 
+    raw: 06
+
+[74] start=27.492325s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[75] start=27.548089s  duration=27.38 ms  (repeated start)
+    byte0: 0x83  ACK 
+    raw: 83
+
+[76] start=27.575466s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[77] start=27.579523s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[78] start=27.635289s  duration=30.43 ms  (repeated start)
+    byte0: 0x80  ACK 
+    raw: 80
+
+[79] start=27.666723s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[80] start=27.722488s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[81] start=27.753923s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[82] start=27.809687s  duration=27.38 ms  (repeated start)
+    byte0: 0x09  ACK 
+    raw: 09
+
+[83] start=27.837063s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[84] start=27.841121s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[85] start=27.896887s  duration=27.38 ms  (repeated start)
+    byte0: 0x01  ACK 
+    raw: 01
+
+[86] start=27.924263s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[87] start=29.998729s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[88] start=35.422609s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20
+
+[89] start=35.508543s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[90] start=35.564309s  duration=27.38 ms  (repeated start)
+    byte0: 0x55  ACK 
+    raw: 55
+
+[91] start=35.591685s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[92] start=35.595743s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[93] start=35.651508s  duration=30.42 ms  (repeated start)
+    byte0: 0xAA  ACK 
+    raw: AA
+
+[94] start=35.682941s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[95] start=35.738707s  duration=30.43 ms  (repeated start)
+    byte0: 0x06  ACK 
+    raw: 06
+
+[96] start=35.770141s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[97] start=35.825906s  duration=27.38 ms  (repeated start)
+    byte0: 0x83  ACK 
+    raw: 83
+
+[98] start=35.853282s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[99] start=35.857340s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[100] start=35.913104s  duration=30.43 ms  (repeated start)
+    byte0: 0x58  ACK 
+    raw: 58
+
+[101] start=35.944538s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[102] start=36.000304s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[103] start=36.031738s  duration=55.77 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[104] start=36.087503s  duration=27.38 ms  (repeated start)
+    byte0: 0xE1  ACK 
+    raw: E1
+
+[105] start=36.114880s  duration=3.05 ms  (repeated start)
+    raw: 
+
+[106] start=36.118937s  duration=55.76 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x11  ACK 
+    raw: 20 11
+
+[107] start=36.174702s  duration=30.43 ms  (repeated start)
+    byte0: 0x00  ACK 
+    raw: 00
+
+[108] start=37.998552s  duration=58.81 ms  (repeated start)
+    byte0: 0x20  ACK 
+    byte1: 0x20  ACK 
+    raw: 20 20

@@ -1,0 +1,31 @@
+transactions total : 109
+  two byte prefix  : 50
+  single byte data : 40
+  empty            : 19
+prefix patterns    : ['20 20', '20 11']
+ACK/NACK counts    : {0: 140}  (0=ACK, 1=NACK)
+
+data stream: 55 AA 06 83 F8 00 81 01 55 AA 06 83 D0 00 59 01 55 AA 06 83 A8 00 31 01 55 AA 06 83 80 00 09 01 55 AA 06 83 58 00 E1 00
+
+============== APW12 FRAMES ==============
+[  0] cmd=0x83 len=6 payload=F8 00 ck=81/01 OK  -> DAC=0xF8 (248) = 12.00 V   [old Rust formula: 11.87 V]
+[  1] cmd=0x83 len=6 payload=D0 00 ck=59/01 OK  -> DAC=0xD0 (208) = 12.50 V   [old Rust formula: 12.39 V]
+[  2] cmd=0x83 len=6 payload=A8 00 ck=31/01 OK  -> DAC=0xA8 (168) = 13.00 V   [old Rust formula: 12.92 V]
+[  3] cmd=0x83 len=6 payload=80 00 ck=09/01 OK  -> DAC=0x80 (128) = 13.50 V   [old Rust formula: 13.44 V]
+[  4] cmd=0x83 len=6 payload=58 00 ck=E1/00 OK  -> DAC=0x58 (88) = 14.00 V   [old Rust formula: 13.96 V]
+
+============== VOLTAGE MODEL ==============
+The five real setpoints in the capture:
+
+  DAC :  248   208   168   128    88
+  V   : 12.0  12.5  13.0  13.5  14.0
+
+  Step   : 40 counts per 0.5 V  ->  80 counts per volt
+  Ref    : dac=0 -> 12.0 + 248/80 = 15.1 V
+
+      V   = 15.1 - 0.0125 * dac
+      dac = (15.1 - V) * 80
+
+  Example: 12.6 V -> dac = (15.1 - 12.6) * 80 = 200 (0xC8)
+  Note: the old Rust coefficients (15.1084 / -0.013046) give
+        dac=192 for 12.6 V, which outputs 12.7 V - a 100 mV error.

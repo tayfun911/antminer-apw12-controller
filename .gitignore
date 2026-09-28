@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Arduino build output
+build/
+*.elf
+*.bin
+*.uf2
+*.hex
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
